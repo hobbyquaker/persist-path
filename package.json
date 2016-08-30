@@ -1,6 +1,6 @@
 {
   "name": "persist-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get OS-specific path to store persistent data",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,5 @@
   },
   "homepage": "https://github.com/hobbyquaker/persist-path",
   "dependencies": {
-    "mkdirp": "^0.5.1"
   }
 }

@@ -1,5 +1,4 @@
 var path =      require('path');
-var mkdirp =    require('mkdirp');
 
 module.exports = function () {
     var args = Array.prototype.slice.call(arguments);
