@@ -1,0 +1,34 @@
+{
+  "name": "persist-path",
+  "version": "1.0.0",
+  "description": "Get OS-specific path to store persistent data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hobbyquaker/persist-path"
+  },
+  "keywords": [
+    "persist",
+    "path",
+    "store",
+    "storage",
+    "save",
+    "data",
+    "json",
+    "user",
+    "appdata",
+    "library"
+  ],
+  "author": "Sebastian Raff https://github.com/hobbyquaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/persist-path/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/persist-path",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
