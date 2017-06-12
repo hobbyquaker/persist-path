@@ -1,4 +1,4 @@
-var path =      require('path');
+var path = require('path');
 
 module.exports = function () {
     var args = Array.prototype.slice.call(arguments);
@@ -9,8 +9,12 @@ module.exports = function () {
         pathArr.push(path.join(process.env.HOME, 'Library/Preferences'));
     } else {
         pathArr.push(process.env.HOME);
-        if (args.length) args[0] = '.' + args[0];
+        if (args.length > 0) {
+            args[0] = '.' + args[0];
+        }
     }
-    if (args.length) pathArr = pathArr.concat(args);
+    if (args.length > 0) {
+        pathArr = pathArr.concat(args);
+    }
     return path.join.apply(this, pathArr);
 };

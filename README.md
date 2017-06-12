@@ -1,8 +1,9 @@
 # persist-path
 
-[![License][mit-badge]][mit-url]
 [![NPM version](https://badge.fury.io/js/persist-path.svg)](http://badge.fury.io/js/persist-path)
 [![Dependency Status](https://img.shields.io/gemnasium/hobbyquaker/persist-path.svg?maxAge=2592000)](https://gemnasium.com/github.com/hobbyquaker/persist-path)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![License][mit-badge]][mit-url]
 
 > Get OS-specific path to store persistent data
 
