@@ -8,7 +8,12 @@ module.exports = function () {
     } else if (process.platform === 'darwin') {
         pathArr.push(path.join(process.env.HOME, 'Library/Preferences'));
     } else {
-        pathArr.push(process.env.HOME);
+        if (process.env.HOME) {
+            pathArr.push(process.env.HOME);
+        }
+        else {
+            pathArr.push(process.cwd());
+        }
         if (args.length > 0) {
             args[0] = '.' + args[0];
         }
